@@ -1,1 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 
+body {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+}
+
+.basic-card {
+  border: 2px solid black;
+  width: 400px;
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: yellow;
+  width: 100%;
+  height: auto;
+}
+
+.header-cnt-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header-backgroung-image {
+  width: 100%;
+}
+
+.header-avatar-image {
+  width: 100px;
+  position: absolute;
+}
+
+.main {
+  padding: 10px;
+}
+.footer-datafolowers {
+  display: flex;
+  justify-content: space-evenly;
+}
