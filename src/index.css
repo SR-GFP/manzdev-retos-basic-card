@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: darkslategray;
   display: flex;
   justify-content: center;
 }
@@ -12,7 +11,10 @@ body {
 .basic-card {
   border: 2px solid black;
   width: 400px;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
+  border-radius: 2%;
+  margin-top: 30px;
+  box-shadow: 0 0 50px black;
 }
 
 .header {
@@ -40,7 +42,7 @@ body {
 }
 
 .main {
-  padding: 10px;
+  padding: 50px;
 }
 
 .main {
@@ -62,6 +64,13 @@ body {
   text-decoration: none
 }
 
+.main-ubicacion{
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  aling-contente: space-evenly;
+}
+
 .main-description{
   margin-top: 20px;
   text-align: center;
@@ -70,8 +79,26 @@ body {
 .main-buttom{
   margin-top: 30px;
 }
+
+footer{
+  margin-top: 40px;
 }
+
 .footer-datafolowers {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px soid grey;
+  width: 33%;
+  padding-top: 8px;
+
 }
