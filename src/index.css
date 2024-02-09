@@ -39,7 +39,9 @@ body {
 
 .main {
   padding: 10px;
+
 }
+
 .footer-datafolowers {
   display: flex;
   justify-content: space-evenly;
