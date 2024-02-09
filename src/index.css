@@ -1,26 +1,32 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
+  min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
+  background: linear-gradient(blue, violet);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .basic-card {
+  overflow: hidden;
   border: 2px solid black;
-  width: 400px;
+  width: 350px;
   background-color: whitesmoke;
-  border-radius: 2%;
-  margin-top: 30px;
-  box-shadow: 0 0 50px black;
+  border-radius: 15px;
+  box-shadow: inset 0 0 7px 1px #646363;
 }
 
 .header {
   background-color: yellow;
   width: 100%;
-  height: auto;
+  height: 150px;
 }
 
 .header-cnt-images {
@@ -28,13 +34,19 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  border-bottom: 4px groove blueviolet;
 }
 
 .header-backgroung-image {
   width: 100%;
+  height: 150px;
 }
 
 .header-avatar-image {
+  border-top: 3px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-bottom: none;
   width: 100px;
   position: absolute;
   bottom: -30px;
@@ -42,13 +54,54 @@ body {
 }
 
 .main {
-  padding: 50px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-ubicacion {
+  display: flex;
+  align-items: center;
+}
+
+.main-ubicacion a {
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.main-description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-buttom button {
+  margin-top: 30px;
+  color: blue;
+  border-radius: 20px;
+  padding: 6px 35px;
+  border: 2px solid blue;
+  font-size: 15px;
+}
+
+.main-buttom button:hover {
+  transition: normal 0.4s;
+  background-color: blue;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
 }
 
 .footer-datafolowers {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .data {
@@ -58,7 +111,7 @@ body {
   align-items: center;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
-  border-right: 1px solid grey;
   width: 33%;
   padding-top: 8px;
+  padding-bottom: 8px;
 }
