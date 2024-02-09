@@ -35,10 +35,41 @@ body {
 .header-avatar-image {
   width: 100px;
   position: absolute;
+  bottom: -30px;
+  border-radius: 50%
 }
 
 .main {
   padding: 10px;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.main-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-name a {
+  text-decoration: none
+}
+
+.main-description{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-buttom{
+  margin-top: 30px;
+}
 }
 .footer-datafolowers {
   display: flex;
