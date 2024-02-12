@@ -106,6 +106,7 @@ footer{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 .footer-data {
   width: 33%;
@@ -114,6 +115,7 @@ footer{
   align-items: center;
   border-top: 1px inset blue;
   border-right: 1px solid blueviolet;
+  padding-top: 5px;
 }
 
 
